@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/purple_500"
+    android:padding="5dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HW1: Розовое безумие"
+        android:textStyle="bold"
+        android:background="@color/pink_200"
+        android:textColor="@color/purple_500"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/pink_200"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:text="Кнопка обыкновенная"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="Bold"
+        android:hint="Введите текст"
+        android:inputType="textPersonName"
+        android:background="@color/pink_200"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:background="@color/pink_200"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:textOff="Выкл"
+        android:textOn="Вкл"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox Обыкновенный"
+        android:background="@color/pink_200"
+        android:textColor="@color/purple_500"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:background="@color/pink_200"
+        android:textSize="23sp"
+        android:text="Переключатель SwitchCompat"
+        android:textOff="Выкл"
+        android:textOn="Вкл"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
