@@ -15,55 +15,63 @@
         android:background="@color/teal_200"
         android:hint="Введите простой текст"
         android:inputType="text"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:hint="Введите ФИО"
         android:inputType="textPersonName"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:hint="Введите номер цифрами"
         android:inputType="phone"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editText4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:hint="Добавочный номер цифрами"
         android:inputType="number"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editText5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:hint="Введите пароль, не меньше 8 символов"
         android:inputType="textPassword"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/editText6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:hint="Введите e-mail"
         android:inputType="textEmailAddress"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:selectedWeekBackgroundColor="#ff0000"
+        android:weekNumberColor="#0000ff"
+        android:weekSeparatorLineColor="#00ff00" />
 </LinearLayout>
