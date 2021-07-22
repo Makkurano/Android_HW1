@@ -1,7 +1,6 @@
 package com.example.homework1;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -9,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pronin_hw_1_2);
+        setContentView(R.layout.pronin_hw_1);
+    //    setContentView(R.layout.pronin_hw_1_2);
     }
 }
